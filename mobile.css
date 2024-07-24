@@ -1,0 +1,83 @@
+@media(max-width:450px){
+ 
+    
+       
+        header {
+           
+            padding: 10px 20px;
+           
+        }
+
+        nav{
+           width: 80%;
+           display: flex;
+           justify-content: flex-end;
+           align-items: center;
+           gap:20px;
+        }
+
+        nav a{
+            font-size: 11px;
+        }
+
+  
+        #about article {
+            padding: 50px 30px; 
+            flex-direction: column; 
+            gap:40px;
+        }
+    
+       #about article img {
+            width: 70%;
+           
+        }
+    
+      #about  article div {
+            width: 100%;
+            gap:30px;
+        
+        }
+    
+       #about article div p {
+         
+            text-align: justify;
+        }
+    
+
+        #astro article {
+           
+            padding: 50px;
+            gap: 20px;
+            justify-content: center;
+           
+        }
+    
+        #astro article img {
+            width: 100px;
+            height: 100px;
+        
+        }
+    
+    
+        #contact article {
+            
+            flex-direction: column;
+            gap:40px;
+        }
+    
+        #contact article div {
+            width: 100%;    
+        }
+    
+        #contact article div p {
+          justify-content: center;
+          align-items: center;
+        }
+    
+        #contact article form {
+            width: 100%;
+            
+        }
+    
+     
+}
